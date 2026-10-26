@@ -1,0 +1,12 @@
+{
+  "name": "ai-sasa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Sasa concept site and enquiry server",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -42,4 +42,4 @@ const useTabs=[...document.querySelectorAll('.use-tab')];function selectCase(tab
 form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const data=new FormData(form);const subject=encodeURIComponent('AI Sasa conversation — '+data.get('interest'));const body=encodeURIComponent(`Name: ${data.get('name')}\nEmail: ${data.get('email')}\nOrganisation: ${data.get('organisation')}\nInterest: ${data.get('interest')}\n\nTeam goal:\n${data.get('message')}`);document.getElementById('formSuccess').classList.add('show');window.location.href=`mailto:hello@aisasa.co.ke?subject=${subject}&body=${body}`;showToast('Email draft prepared. If no email app opens, contact hello@aisasa.co.ke directly.');});
 })();
 </script>
-</body></html>
+<script src="readiness.js"></script><script src="backend-client.js"></script></body></html>
