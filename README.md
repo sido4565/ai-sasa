@@ -11,8 +11,9 @@ Open `index.html` in a browser. The site uses plain HTML, CSS, and JavaScript; n
 ## What's included
 
 - Responsive landing page inspired by the supplied reference
-- Mobile navigation and in-page links
-- Interactive use-case selector
+- Mobile navigation with keyboard and screen-reader state
+- Keyboard-operable use-case selector and accessible dialog behavior
+- Search/social metadata, browser theme color and a lightweight inline favicon
 - Demo request form with validation and `mailto:` handoff
 - Investor concept and pilot outline in `INVESTOR_CONCEPT.md`
 - GitHub Actions workflow for GitHub Pages deployment
